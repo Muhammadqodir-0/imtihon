@@ -49,6 +49,14 @@
     font-weight: 500;
     transition: 0.3s;
 }
+.navbar-links{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 20px;
+    transition: 0.3s;
+}
 
 .navbar-links > li > a.active{
     color: #295091;
@@ -69,11 +77,11 @@
     background-color: #F6F6F9;
 }
 
-.news-card .title{
+/* .news-card .title{
     font-weight: 500;
     font-size: 17px;
     line-height: 20px;
-}
+} */
 
 .news-card .content{
     font-weight: 400;
@@ -132,4 +140,37 @@ color: white ;
 .footer-logo{
     background-color: #133C82;
     color: #fff;
+}
+.Detail-p{
+font-size: 18px;
+font-weight: 500;
+}
+.navbar-linksm > li {
+    padding: 0 8px 0 8px;
+}
+.navbar-linksm > li >a{
+    color: #28508E;
+
+}
+.karantin{
+font-size: 17px;
+font-weight: 500
+}
+
+.contact-form :where(input,textarea){
+    margin: 20px 0;
+    box-shadow: none;
+    border: 2px solid #f1f1f1;
+    background-color: #fbfbfb;
+    resize: none;
+}
+.contact-form :where(input,textarea)::placeholder{
+    color:#888888;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.contact-form :where(input,textarea):focus{
+    border-color: #000 !important;
+    box-shadow: none !important;
 }

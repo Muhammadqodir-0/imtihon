@@ -10,7 +10,7 @@ function Navbar() {
         <>
             <div className="my-navbar pt-4 pb-4">
                 <div className="container">
-                    <div className="d-flex justify-content-between align-items-center">
+                    <div className="d-flex justify-content-between \4">
                         <div className="d-flex align-items-center gap-3">
                             <Link to='/' className="navbar-logo">NAMANGANLIKLAR24</Link>
                             <div className="d-flex gap-3 currencies">
@@ -30,7 +30,7 @@ function Navbar() {
                             <li><Link>Узбекистана</Link></li>
                             <li><Link>Мир</Link></li>
                             <li><Link>Экономика</Link></li>
-                            <li><Link className="active">Политика</Link></li>
+                            <li><Link to={'/'} className="active" >Политика</Link></li>
                             <li><Link>Общество</Link></li>
                             <li><Link>Технологии</Link></li>
                             <li><Link>Спорт</Link></li>
