@@ -1,3 +1,4 @@
+commit
 .navbar-logo{
     text-decoration: none;
     font-size: 28px;
@@ -173,4 +174,43 @@ font-weight: 500
 .contact-form :where(input,textarea):focus{
     border-color: #000 !important;
     box-shadow: none !important;
+}
+.submit-btn{
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+    background-color: #295093;
+    border: 2px solid #295093;
+    border-radius: 5px;
+    padding: 5px 32px;
+}
+.submit-btn:hover{
+    border-color: #21498d;
+    background-color: #21498d;
+}
+.footer-link{
+    text-decoration: none;
+
+}
+.login-logo{
+    text-align: end;
+}
+.ligin-silka{
+    border-radius: 5px;
+    border: 2px solid #BCC3CD;
+    box-shadow: -10px 10px 0 0 #29509129;
+    padding: 10px 30px;
+}
+.login-p{
+font-size: 18px;
+font-weight: 400;
+color: #888888;
+}
+.y{
+    text-align: end;
+    padding-right:10px;
+}
+.login-telegram{
+    background-color: #295091 !important;
+    color: #fff;
 }

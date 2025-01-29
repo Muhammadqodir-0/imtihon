@@ -20,7 +20,7 @@ export default function Footer() {
             </div>
             <div className="col-3">
               <p className="text-white">Информация о сайте</p>
-              <Link to={'/Login'} className="text-white">Напишите нам</Link>
+              <Link to={'/Login'} className="text-white footer-link">Напишите нам</Link>
               <p className="text-white">Реклама</p>
               <p className="text-white">Прислать новость</p>
             </div>
